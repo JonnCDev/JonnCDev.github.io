@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Luis Alberto</title>
+
+    <!-- Estilos organizados por categoria -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/rain-animation.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/results.css">
+
+    <!-- Build do Tailwind (CLI) -->
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <section class="imglogo">
+            <img
+                src="imgs/logo_port.png"
+                alt="Logotipo Oficial"
+            >
+        </section>
+
+        <nav>
+            <ul class="infoport">
+                <li><a href="#sobre">SOBRE MIM</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
+                <li><a href="#projetos">PROJETOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="apresentacao" class="apresentacao">
+
+        <!-- Chuva de imagens criada pelo JavaScript -->
+        <div id="chuva-imagens" aria-hidden="true"></div>
+
+        <!-- Camada azul sobre as imagens -->
+        <div class="fundo-azul"></div>
+
+        <!-- Conteúdo principal -->
+        <div class="conteudo-apresentacao">
+            <figure class="foto-perfil">
+                <img
+                    src="imgs/foto_de_perfil.png"
+                    alt="Foto de perfil de Luis Alberto"
+                >
+            </figure>
+
+            <div class="textos-apresentacao">
+                <h1>
+                    Olá, sou
+                    <span class="nomedestaque">Luis Alberto</span>
+                </h1>
+
+                <h2>
+                    Agile Coach | Agile Master | Scrum Master
+                </h2>
+
+                <div class="descricao-apresentacao">
+                    <p>
+                        Faço a agilidade sair do quadro e chegar ao resultado.
+                    </p>
+
+                    <p>
+                        Conecto estratégia, pessoas e métricas para construir
+                        times mais eficientes e produtos que evoluem com propósito.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <main>
+
+        <section id="sobre" class="secao-animada secao-sobre">
+
+            <!-- Apenas uma chuva para toda a seção -->
+            <div class="chuva-imagens" aria-hidden="true"></div>
+
+            <!-- Apenas um gradiente para toda a seção -->
+            <div class="fundo-azul"></div>
+
+            <!-- Todo o conteúdo fica acima do fundo -->
+            <div class="conteudo-sobre-resultados">
+
+                <!-- =========================
+                     SOBRE MIM
+                ========================== -->
+
+                <div class="conteudo-sobre">
+                    <div class="sobre-grid">
+
+                        <article class="caixa-sobre">
+                            <span class="subtitulo-secao">
+                                Quem sou
+                            </span>
+
+                            <h2>Sobre mim</h2>
+
+                            <p>
+                                Tenho mais de 18 anos de experiência em tecnologia
+                                e produtos digitais, construindo uma trajetória que
+                                conecta engenharia, gestão, agilidade e liderança
+                                de equipes. Nesse período, participei de projetos
+                                em empresas como Via Varejo (Casas Bahia), CREDZ
+                                e em iniciativas relacionadas à Inteligência
+                                Artificial.
+                            </p>
+
+                            <p>
+                                Como Agile Coach, Agile Master e Scrum Master,
+                                trabalho para aproximar estratégia, pessoas e
+                                tecnologia. Minha atuação vai além da implementação
+                                de métodos ágeis: busco compreender os desafios do
+                                negócio, identificar gargalos e ajudar as equipes
+                                a construírem formas de trabalho mais colaborativas,
+                                eficientes e sustentáveis.
+                            </p>
+
+                            <p>
+                                Ao longo da carreira, desenvolvi experiência com
+                                Scrum, Kanban, SAFe, Flight Levels, Value Stream
+                                Mapping, Product Discovery e Lean Inception.
+                                Também utilizo ferramentas e métricas como Jira,
+                                Azure DevOps, Power BI e DORA Metrics para
+                                acompanhar o fluxo das entregas e melhorar a
+                                tomada de decisões.
+                            </p>
+
+                            <p>
+                                Acredito que bons resultados surgem da combinação
+                                entre processos claros, dados confiáveis,
+                                comunicação eficiente e um ambiente no qual as
+                                pessoas tenham autonomia para aprender e evoluir.
+                            </p>
+
+                            <p>
+                                Minha missão é ajudar empresas e equipes a
+                                transformarem agilidade em resultados reais,
+                                construindo uma cultura capaz de sustentar o
+                                crescimento, fortalecer a colaboração e gerar
+                                impacto positivo.
+                            </p>
+                        </article>
+
+                        <figure class="imagem-acao">
+                            <img
+                                src="imgs/foto_em_acao.jpg"
+                                alt="Luis Alberto atuando com uma equipe"
+                            >
+
+                            <figcaption>
+                                Conectando pessoas, estratégia e resultados.
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+
+                <!-- =========================
+                     RESULTADOS
+                ========================== -->
+
+                <div id="resultados" class="conteudo-resultados">
+
+                    <div class="titulo-resultados">
+                        <span class="subtitulo-secao">
+                            Impacto gerado
+                        </span>
+
+                        <h2>Principais resultados</h2>
+
+                        <p>
+                            Resultados alcançados por meio da união entre
+                            estratégia, agilidade, liderança e decisões
+                            orientadas por dados.
+                        </p>
+                    </div>
+
+                    <div class="lista-resultados">
+
+                        <article class="resultado-card">
+                            <div class="resultado-icone">
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <path d="M3 17l6-6 4 4 8-9"></path>
+                                    <path d="M14 6h7v7"></path>
+                                </svg>
+                            </div>
+
+                            <strong>+260%</strong>
+                            <h3>Aumento de throughput</h3>
+
+                            <p>
+                                Crescimento da vazão de entregas em uma equipe
+                                de engenharia.
+                            </p>
+                        </article>
+
+                        <article class="resultado-card">
+                            <div class="resultado-icone">
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <path d="M8 12l3 3 5-6"></path>
+                                </svg>
+                            </div>
+
+                            <strong>−75%</strong>
+                            <h3>Redução de bugs</h3>
+
+                            <p>
+                                Diminuição de falhas em apenas três meses de
+                                trabalho junto à liderança.
+                            </p>
+                        </article>
+
+                        <article class="resultado-card">
+                            <div class="resultado-icone">
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <path d="M12 2v4"></path>
+                                    <path d="M12 18v4"></path>
+                                    <path d="M4.93 4.93l2.83 2.83"></path>
+                                    <path d="M16.24 16.24l2.83 2.83"></path>
+                                    <path d="M2 12h4"></path>
+                                    <path d="M18 12h4"></path>
+                                    <circle cx="12" cy="12" r="4"></circle>
+                                </svg>
+                            </div>
+
+                            <strong>+250%</strong>
+                            <h3>Evolução em IA</h3>
+
+                            <p>
+                                Aumento das funcionalidades de uma plataforma
+                                de Inteligência Artificial em quatro meses.
+                            </p>
+                        </article>
+
+                        <article class="resultado-card">
+                            <div class="resultado-icone">
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    aria-hidden="true"
+                                >
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <path d="M12 7v6l4 2"></path>
+                                </svg>
+                            </div>
+
+                            <strong>5 meses</strong>
+                            <h3>Produto em produção</h3>
+
+                            <p>
+                                Lançamento completo de um produto, desde o
+                                discovery até o deploy em produção.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
