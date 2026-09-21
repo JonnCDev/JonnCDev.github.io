@@ -11,9 +11,9 @@ Seções Sobre mim, Habilidades, Projetos e Contato.
 HTML · CSS · JavaScript · Tailwind CSS · GitHub Pages
 
 ## Como foi feito (Scrum)
-- Backlog e tarefas no quadro do GitHub Projects: [link do quadro]
-- Sprints: [quantas e de quanto tempo]
-- Meu papel: [o que você fez]
+- Backlog e tarefas no quadro do GitHub Projects: [https://trello.com/b/KrmiqS6B/sprint-review-portfolio-professor-luis]
+- Sprints: [3 Sprints em 15 dias de alternância]
+- Meu papel: [Desenvolver]
 
 ## Como rodar
 1. `git clone https://github.com/JonnCDev/portfolio-luis-alberto`
